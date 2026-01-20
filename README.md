@@ -149,6 +149,22 @@ Ergebnisse analysieren: Nutzen Sie die interaktiven Visualisierungen
 
 Exportieren: Speichern Sie Vorhersagen und Berichte
 
+#🧩 App ausführen (Streamlit)
+
+1️⃣ Requirements vorbereiten
+
+Alle benötigten Python-Pakete sind in der Datei requirements.txt definiert.
+Für das Dashboard werden zusätzliche Abhängigkeiten aus requirements_app.txt genutzt.
+
+2️⃣ Neues virtuelles Environment erstellen
+source tf_env_310/bin/activate
+
+3️⃣ Abhängigkeiten installieren
+pip install -r requirements.txt
+pip install -r requirements_app.txt
+
+4️⃣ App starten
+streamlit run app/app.py
 ---
 
 # 📊 **Performance Metriken**
@@ -200,4 +216,5 @@ Claudia
 E-mail: fotsoclaudia88@gmail.com
 Sadiq
 qais.sadiq422@gmail.com
+
 
